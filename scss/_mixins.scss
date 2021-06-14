@@ -1,0 +1,17 @@
+
+@mixin articleFormat($color, $fontSize, $imgSize) {
+    p {
+        color: $color;
+        margin: 10px 0px;
+        font-size: $fontSize;
+    }
+
+    img {
+        width: $imgSize;
+    }
+}
+
+
+
+
+

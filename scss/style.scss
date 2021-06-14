@@ -1,0 +1,14 @@
+@import 'mixins';
+
+@import'variables';
+
+@import'fonts';
+
+
+
+section#artigo2 {
+
+    @include articleFormat($that-red,$font-size-padrao,150px)
+    
+
+}
